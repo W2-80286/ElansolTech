@@ -11,7 +11,6 @@ import Login
      <Routes>  
       <Route path='/' element={<Login />} />
       <Route path='/register' element={<Register/>} />
-      <Route path="/dashboard" element={<Dashboard />} /> {/* Define the route for Dashboard */}
             
    </Routes> 
    <ToastContainer />
